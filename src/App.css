@@ -37,6 +37,7 @@
   opacity: 80%;
   padding: 3vw;
   width: 70vw;
+  overflow-y: auto;
 }
 
 .exercise:hover {
@@ -63,4 +64,23 @@
     margin: 1vw;
     width: 300px;
   }
+}
+
+.card-img-top {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card {
+  margin-bottom: 5vh;
+  padding: 1vh;
+}
+
+.link {
+  color: white;
 }

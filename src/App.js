@@ -1,5 +1,6 @@
 import './App.css';
-import JSX from './exercises';
+import JSX from './Exercise-1';
+import Card from './Exercise-2';
 
 const task = (value) => <li key={value} >{value}</li>;
 
@@ -22,6 +23,12 @@ function App() {
           <h2>Exercício 3</h2>
           {JSX}
         </div>
+
+        <div className="exercise">
+          <h2>Exercício 4</h2>
+          {Card}
+        </div>
+
       </div>
     </div>
   );
