@@ -1,10 +1,15 @@
 import React from 'react';
 
-//First exercise: 
-// The current code uses JSX to assign a div element to the 
-// constant JSX. Replace the div with an h1 element and add 
-// the text Hello JSX! inside it.
-
-const JSX = <h1>Hello JSX!</h1>;
+const JSX = (
+  <div>
+    <h3>Lorem Ipsum</h3>
+    <p>Ex laborum sint cillum anim ea irure quis qui veniam elit amet ipsum eu.</p>
+    <ul>
+      <li>Ex laborum</li>
+      <li>Sint cillum</li>
+      <li>Anim ea</li>
+    </ul>
+  </div>
+)
 
 export default JSX;

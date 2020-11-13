@@ -32,8 +32,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  height: 30vh;
-  justify-content: center;
+  min-height: 25vh;
   margin-top: 5vw;
   opacity: 80%;
   padding: 3vw;
@@ -60,6 +59,7 @@
     flex-direction: row;
   }
   .exercise {
+    height: 60vh;
     margin: 1vw;
     width: 300px;
   }

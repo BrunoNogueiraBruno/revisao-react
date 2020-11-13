@@ -13,7 +13,9 @@ function App() {
       <div className="App-header">
         <div className="exercise">
           <h2>Exercício 1-2</h2>
-          {tasksArr.map(eachTask => task(eachTask))}
+          <ol>
+            {tasksArr.map(eachTask => task(eachTask))}
+          </ol>
         </div>
 
         <div className="exercise">
